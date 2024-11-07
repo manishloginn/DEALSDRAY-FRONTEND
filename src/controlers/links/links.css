@@ -1,0 +1,14 @@
+.Links {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    /* border: 1px solid; */
+    margin: auto;
+    padding: 0px 20px;
+    margin-top: 10px;
+    .linksss {
+        display: flex;
+        width: 20vw;
+        justify-content: space-between;
+    }
+}

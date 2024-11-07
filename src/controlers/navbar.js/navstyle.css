@@ -1,0 +1,22 @@
+.navContainer {
+    display: flex;
+    /* border: 1px solid; */
+    .logo {
+        display: flex;
+        gap: 10px;
+        .Employe {
+            font-size: 25px;
+            font-weight: 500;
+            background: linear-gradient(to right, #2125f3, #cf23cf, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        .management {
+            font-size: 25px;
+            font-weight: 500;
+            background: linear-gradient(to right, #2125f3, #cf23cf, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    }
+}

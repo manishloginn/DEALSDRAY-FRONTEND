@@ -1,0 +1,48 @@
+.logincontent {
+    background: linear-gradient(to right, orange, yellow, rgba(255, 255, 0, 0.582));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.logincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .button{
+            display: flex;
+            /* width: 30vw; */
+            justify-content: flex-end;
+            float: right;
+            /* border: 1px solid; */
+            button {
+                width: 41.5vw;
+                height: 30px;
+                background-color: #92D050;
+                color: white;
+                font-size: 20px;
+                border: none;
+                outline: none;
+            }
+        }
+        .inputDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+            gap: 20px;
+            label{
+                font-size: 20px;
+                width: 10vw;
+            };
+            input{
+                width: 40vw;
+                height: 30px;
+                padding: 0px 10px;
+            }
+        }
+    }
+}
