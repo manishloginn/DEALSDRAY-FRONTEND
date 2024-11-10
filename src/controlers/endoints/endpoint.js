@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:5000'
+const baseUrl = 'https://dealsdray-backend-99oh.onrender.com'
 
 
 export const endpoint = {

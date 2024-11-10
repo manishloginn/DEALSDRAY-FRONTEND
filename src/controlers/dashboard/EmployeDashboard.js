@@ -30,7 +30,6 @@ const EmployeDashboard = () => {
         Cookies.remove("editEmployee")
         navigate('/')
     }
-
     return (
         <>
             <div className='employeecontainer'>
