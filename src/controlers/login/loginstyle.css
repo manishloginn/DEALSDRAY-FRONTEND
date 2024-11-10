@@ -9,13 +9,17 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    width: 100vw;
+  
     .form {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        .inputDiv {
+            width: 100vw;
+        }
         .button{
             display: flex;
-            /* width: 30vw; */
             justify-content: flex-end;
             float: right;
             /* border: 1px solid; */

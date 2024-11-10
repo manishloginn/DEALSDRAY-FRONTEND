@@ -1,15 +1,20 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './loginstyle.css'
 import axios from 'axios'
 import { endpoint } from '../endoints/endpoint'
 import Cookies from 'js-cookie'
+import { useNavigate } from 'react-router-dom'
 
-const Login = () => {
+const Login = ({login, setlogin}) => {
+
+    const navigate = useNavigate()
 
     const [formData, setformData] = useState({
         username:'',
         password:''
     })
+
+    console.log(login)
 
     const haldelChange = (e) => {
         setformData((prev) => ({
@@ -26,7 +31,8 @@ const Login = () => {
             console.log(res.data)
             if(res.status === 200){
                 Cookies.set("userToken", res.data.token)
-                
+                setlogin(false)
+                navigate('/home')
             }
         }).catch((err ) => {
             console.log(err)

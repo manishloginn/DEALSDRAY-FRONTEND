@@ -1,0 +1,52 @@
+.employeecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw ;
+    margin: auto;
+    /* border: 1px solid; */
+    margin-top: 10px;
+    background-color: #DEEAF6;
+    font-weight: bold;
+    font-size: 18px;
+    .linkContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid; */
+        width: 100%;
+        gap: 50px;
+        .links {
+            display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50vw;
+        /* border: 1px solid; */
+        a {
+            text-decoration:  none;
+            color: black;
+        }
+        }
+        .linksname {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            float: right;
+            width: 20vw;
+            /* border: 1px solid; */
+            button {
+                background-color: transparent;
+                padding: 10px 10px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                font-weight: bold;
+                align-items: center;
+                margin: auto;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
